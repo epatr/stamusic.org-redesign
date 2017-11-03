@@ -1,1 +1,17 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+h1 {
+    &.technique-eight {
+        width: 381px;
+        height: 66px;
+        position: relative;
+
+        span {
+            background: url("logo.svg");
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
