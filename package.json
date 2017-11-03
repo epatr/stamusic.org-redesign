@@ -4,6 +4,7 @@
   "description": "A redesign of stamusic.org",
   "main": "index.html",
   "scripts": {
+    "build": "webpack",
     "start": "webpack --config webpack.config.js"
   },
   "repository": {
